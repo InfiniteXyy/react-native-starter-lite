@@ -1,5 +1,9 @@
 {
-  "extends": ["config:base"],
-  "schedule": ["every weekend"],
-  "timezone": "Asia/Shanghai"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "schedule": ["every weekend"],
+    "timezone": "Asia/Shanghai"
+  }
 }
